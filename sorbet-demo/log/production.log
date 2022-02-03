@@ -1,0 +1,82 @@
+W, [2022-02-02T12:21:12.686758 #51046]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-02-02T12:21:15.506720 #51046]  INFO -- : [0ca81ca6-7e67-45da-b46c-26d640ad3290] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:21:15 +0100
+I, [2022-02-02T12:21:15.509273 #51046]  INFO -- : [0ca81ca6-7e67-45da-b46c-26d640ad3290] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:21:15.513248 #51046]  INFO -- : [0ca81ca6-7e67-45da-b46c-26d640ad3290] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.9ms | Allocations: 1828)
+F, [2022-02-02T12:21:15.513735 #51046] FATAL -- : [0ca81ca6-7e67-45da-b46c-26d640ad3290]   
+[0ca81ca6-7e67-45da-b46c-26d640ad3290] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: external_services):
+[0ca81ca6-7e67-45da-b46c-26d640ad3290]   
+[0ca81ca6-7e67-45da-b46c-26d640ad3290] app/controllers/external_services_controller.rb:8:in `index'
+I, [2022-02-02T12:21:16.783403 #51046]  INFO -- : [c47f28f0-caa2-4adb-a989-56000e1e131f] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:21:16 +0100
+I, [2022-02-02T12:21:16.788479 #51046]  INFO -- : [c47f28f0-caa2-4adb-a989-56000e1e131f] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:21:16.790665 #51046]  INFO -- : [c47f28f0-caa2-4adb-a989-56000e1e131f] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.7ms | Allocations: 301)
+F, [2022-02-02T12:21:16.791817 #51046] FATAL -- : [c47f28f0-caa2-4adb-a989-56000e1e131f]   
+[c47f28f0-caa2-4adb-a989-56000e1e131f] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: external_services):
+[c47f28f0-caa2-4adb-a989-56000e1e131f]   
+[c47f28f0-caa2-4adb-a989-56000e1e131f] app/controllers/external_services_controller.rb:8:in `index'
+I, [2022-02-02T12:21:29.403761 #51046]  INFO -- : [4599d250-79e6-481b-bc4a-6c451e43b76e] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:21:29 +0100
+I, [2022-02-02T12:21:29.412774 #51046]  INFO -- : [4599d250-79e6-481b-bc4a-6c451e43b76e] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:21:29.422764 #51046]  INFO -- : [4599d250-79e6-481b-bc4a-6c451e43b76e] Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.0ms | Allocations: 239)
+F, [2022-02-02T12:21:29.423729 #51046] FATAL -- : [4599d250-79e6-481b-bc4a-6c451e43b76e]   
+[4599d250-79e6-481b-bc4a-6c451e43b76e] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: external_services):
+[4599d250-79e6-481b-bc4a-6c451e43b76e]   
+[4599d250-79e6-481b-bc4a-6c451e43b76e] app/controllers/external_services_controller.rb:8:in `index'
+I, [2022-02-02T12:21:34.916833 #51046]  INFO -- : [e8f5bce9-e067-402f-8a4f-554e11ffd251] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:21:34 +0100
+I, [2022-02-02T12:21:34.917783 #51046]  INFO -- : [e8f5bce9-e067-402f-8a4f-554e11ffd251] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:21:34.919390 #51046]  INFO -- : [e8f5bce9-e067-402f-8a4f-554e11ffd251] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.5ms | Allocations: 226)
+F, [2022-02-02T12:21:34.920770 #51046] FATAL -- : [e8f5bce9-e067-402f-8a4f-554e11ffd251]   
+[e8f5bce9-e067-402f-8a4f-554e11ffd251] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: external_services):
+[e8f5bce9-e067-402f-8a4f-554e11ffd251]   
+[e8f5bce9-e067-402f-8a4f-554e11ffd251] app/controllers/external_services_controller.rb:8:in `index'
+W, [2022-02-02T12:21:46.845010 #51130]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-02-02T12:21:48.923275 #51130]  INFO -- : [622aa8e4-2a16-4295-a77a-6dd2fc1b64a1] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:21:48 +0100
+I, [2022-02-02T12:21:48.926303 #51130]  INFO -- : [622aa8e4-2a16-4295-a77a-6dd2fc1b64a1] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:21:48.940100 #51130]  INFO -- : [622aa8e4-2a16-4295-a77a-6dd2fc1b64a1] Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.5ms | Allocations: 1828)
+F, [2022-02-02T12:21:48.940932 #51130] FATAL -- : [622aa8e4-2a16-4295-a77a-6dd2fc1b64a1]   
+[622aa8e4-2a16-4295-a77a-6dd2fc1b64a1] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: external_services):
+[622aa8e4-2a16-4295-a77a-6dd2fc1b64a1]   
+[622aa8e4-2a16-4295-a77a-6dd2fc1b64a1] app/controllers/external_services_controller.rb:8:in `index'
+I, [2022-02-02T12:21:49.905797 #51130]  INFO -- : [d8e5b85a-a119-4283-a98e-4910e175a02b] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:21:49 +0100
+I, [2022-02-02T12:21:49.906966 #51130]  INFO -- : [d8e5b85a-a119-4283-a98e-4910e175a02b] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:21:49.908739 #51130]  INFO -- : [d8e5b85a-a119-4283-a98e-4910e175a02b] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.7ms | Allocations: 301)
+F, [2022-02-02T12:21:49.909981 #51130] FATAL -- : [d8e5b85a-a119-4283-a98e-4910e175a02b]   
+[d8e5b85a-a119-4283-a98e-4910e175a02b] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: external_services):
+[d8e5b85a-a119-4283-a98e-4910e175a02b]   
+[d8e5b85a-a119-4283-a98e-4910e175a02b] app/controllers/external_services_controller.rb:8:in `index'
+I, [2022-02-02T12:23:01.095297 #51130]  INFO -- : [728b4cfe-0800-40d1-9c9b-9c6ed3a195f2] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:23:01 +0100
+I, [2022-02-02T12:23:01.101266 #51130]  INFO -- : [728b4cfe-0800-40d1-9c9b-9c6ed3a195f2] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:23:01.104053 #51130]  INFO -- : [728b4cfe-0800-40d1-9c9b-9c6ed3a195f2] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.7ms | Allocations: 239)
+F, [2022-02-02T12:23:01.104802 #51130] FATAL -- : [728b4cfe-0800-40d1-9c9b-9c6ed3a195f2]   
+[728b4cfe-0800-40d1-9c9b-9c6ed3a195f2] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: external_services):
+[728b4cfe-0800-40d1-9c9b-9c6ed3a195f2]   
+[728b4cfe-0800-40d1-9c9b-9c6ed3a195f2] app/controllers/external_services_controller.rb:8:in `index'
+I, [2022-02-02T12:23:02.069823 #51130]  INFO -- : [82d869e9-9e6c-4e3f-aba3-95d6f8f08d23] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:23:02 +0100
+I, [2022-02-02T12:23:02.071106 #51130]  INFO -- : [82d869e9-9e6c-4e3f-aba3-95d6f8f08d23] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:23:02.072930 #51130]  INFO -- : [82d869e9-9e6c-4e3f-aba3-95d6f8f08d23] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.7ms | Allocations: 226)
+F, [2022-02-02T12:23:02.074428 #51130] FATAL -- : [82d869e9-9e6c-4e3f-aba3-95d6f8f08d23]   
+[82d869e9-9e6c-4e3f-aba3-95d6f8f08d23] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: external_services):
+[82d869e9-9e6c-4e3f-aba3-95d6f8f08d23]   
+[82d869e9-9e6c-4e3f-aba3-95d6f8f08d23] app/controllers/external_services_controller.rb:8:in `index'
+I, [2022-02-02T12:23:24.205710 #51130]  INFO -- : [9dca7313-f067-436a-a302-b0205a4bb803] Started GET "/" for 127.0.0.1 at 2022-02-02 12:23:24 +0100
+F, [2022-02-02T12:23:24.208181 #51130] FATAL -- : [9dca7313-f067-436a-a302-b0205a4bb803]   
+[9dca7313-f067-436a-a302-b0205a4bb803] ActionController::RoutingError (No route matches [GET] "/"):
+[9dca7313-f067-436a-a302-b0205a4bb803]   
+I, [2022-02-02T12:23:29.286003 #51130]  INFO -- : [9d16ada8-7ae8-49c8-946d-691ba548ea09] Started GET "/" for 127.0.0.1 at 2022-02-02 12:23:29 +0100
+F, [2022-02-02T12:23:29.286588 #51130] FATAL -- : [9d16ada8-7ae8-49c8-946d-691ba548ea09]   
+[9d16ada8-7ae8-49c8-946d-691ba548ea09] ActionController::RoutingError (No route matches [GET] "/"):
+[9d16ada8-7ae8-49c8-946d-691ba548ea09]   
+W, [2022-02-02T12:23:36.046074 #51326]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2022-02-02T12:24:54.369779 #51521]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-02-02T12:24:54.415452 #51521]  INFO -- : Migrating to CreateExternalServices (20220202103647)
+W, [2022-02-02T12:25:00.846520 #51551]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-02-02T12:25:05.259677 #51551]  INFO -- : [dac6a4ae-5751-4b9c-a8a4-f163952cdf99] Started GET "/" for 127.0.0.1 at 2022-02-02 12:25:05 +0100
+F, [2022-02-02T12:25:05.263665 #51551] FATAL -- : [dac6a4ae-5751-4b9c-a8a4-f163952cdf99]   
+[dac6a4ae-5751-4b9c-a8a4-f163952cdf99] ActionController::RoutingError (No route matches [GET] "/"):
+[dac6a4ae-5751-4b9c-a8a4-f163952cdf99]   
+W, [2022-02-02T12:25:17.014036 #51613]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-02-02T12:25:19.315220 #51613]  INFO -- : [2f8abad2-169d-4ae5-bec0-a81f540cd8cb] Started GET "/" for 127.0.0.1 at 2022-02-02 12:25:19 +0100
+F, [2022-02-02T12:25:19.315740 #51613] FATAL -- : [2f8abad2-169d-4ae5-bec0-a81f540cd8cb]   
+[2f8abad2-169d-4ae5-bec0-a81f540cd8cb] ActionController::RoutingError (No route matches [GET] "/"):
+[2f8abad2-169d-4ae5-bec0-a81f540cd8cb]   
+I, [2022-02-02T12:25:29.591488 #51613]  INFO -- : [aa4d3925-7962-4bc2-928f-334fe92194cf] Started GET "/external_services" for 127.0.0.1 at 2022-02-02 12:25:29 +0100
+I, [2022-02-02T12:25:29.603461 #51613]  INFO -- : [aa4d3925-7962-4bc2-928f-334fe92194cf] Processing by ExternalServicesController#index as HTML
+I, [2022-02-02T12:25:29.626943 #51613]  INFO -- : [aa4d3925-7962-4bc2-928f-334fe92194cf] Completed 200 OK in 23ms (Views: 18.1ms | ActiveRecord: 2.7ms | Allocations: 1793)
